@@ -47,7 +47,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Rspec-Rails
   gem 'rspec-rails', '~> 3.7'
-  # gem 'cucumber', '~> 3.1', '>= 3.1.1'
+  gem 'cucumber', '~> 3.1', '>= 3.1.1'
 end
 
 group :development do
