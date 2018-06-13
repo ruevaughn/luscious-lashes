@@ -29,4 +29,11 @@ rake db:create
 
 * Deployment instructions
 
-* ...
+# TODO:
+* Testing - Angular and Rails
+* Login - So Products, Services, Prices, Images, etc can be controlled
+* Links
+  * Reviews
+  * Contact
+  * Schedule (Calendar, admin panel enable her to block off days)
+  * Picture Viewer, admin panel allow upload pictures
