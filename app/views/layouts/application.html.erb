@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= if @title  ? @title : "Luscious Lashes" %></title>
+    <title>Luscious Lashes</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    <%= javascript_pack_tag 'application' %>
     <%= yield %>
   </body>
 </html>
