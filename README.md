@@ -9,13 +9,16 @@ Things you may want to cover:
 2.5.1p57
 
 * System dependencies
+Postgres
+Redis
 
 * Configuration
 
 * Database creation
-Postgresql
+homebrew install
 
 * Database initialization
+rake db:create
 
 * How to run the test suite
 
