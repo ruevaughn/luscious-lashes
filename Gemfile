@@ -11,6 +11,9 @@ gem 'pg', '~> 1.0'
 # React as the Front End JS Framework
 gem 'react-rails', '~> 2.4', '>= 2.4.4'
 
+# WebPacker for React instead of sprockets
+gem 'webpacker', '~> 3.5', '>= 3.5.3'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
