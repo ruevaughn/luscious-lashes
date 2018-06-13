@@ -6,12 +6,14 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.5.1p57
 
 * System dependencies
 
 * Configuration
 
 * Database creation
+Postgresql
 
 * Database initialization
 
