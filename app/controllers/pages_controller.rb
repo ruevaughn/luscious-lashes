@@ -1,8 +1,6 @@
-PagesController < ApplicationController
-  respond_to :json
-
+class PagesController < ApplicationController
   def main
-    page_title = 'Luscious Lashes'
-    render
+    @title = 'Test Lashes'
+    render 'main'
   end
 end
