@@ -4,13 +4,13 @@ class Header extends React.Component {
   render () {
     return (
       <React.Fragment>
-        Greeting: {this.props.greeting}
+        {this.props.title}
       </React.Fragment>
     );
   }
 }
 
 Header.propTypes = {
-  greeting: PropTypes.string
+  title: PropTypes.string
 };
 export default Header
