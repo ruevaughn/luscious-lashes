@@ -8,6 +8,10 @@
 // compiled file. JavaScript code in this file should be added after the last require_* statement.
 //
 //= require react
+//= require jquery
+//= require jquery.turbolinks
+//= require materialize
+//= require turbolinks
 //= require activestorage
 //= require rails-ujs
 //= require_tree .

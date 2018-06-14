@@ -21,6 +21,7 @@ gem 'sass-rails', '~> 5.0'
 
 # Style
 gem 'materialize-sass', '~> 0.100.2'
+gem 'material_icons', '~> 2.2', '>= 2.2.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -43,6 +44,8 @@ gem 'turbolinks', '~> 5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'jquery-turbolinks', '~> 2.1'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -53,7 +56,6 @@ group :development, :test do
   # Rspec-Rails
   gem 'rspec-rails', '~> 3.7'
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
-  gem 'cucumber-rails', '~> 1.6'
 end
 
 group :development do
@@ -68,4 +70,6 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+
+  gem 'cucumber-rails', '~> 1.6', require: false
 end
