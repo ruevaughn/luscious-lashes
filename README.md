@@ -24,6 +24,7 @@ homebrew install
 rake db:create
 
 * How to run the test suite
+rspec spec.
 
 * Services (job queues, cache servers, search engines, etc.)
 
